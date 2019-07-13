@@ -1,0 +1,72 @@
+<head>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i|Fira+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Roboto:400,700" rel="stylesheet">
+</head>
+
+<body>
+  <div class="aboutMe">
+    <p>I'm <span class="name">Jesse Howe</span></p>
+  </div>
+  <div class="intro">
+    <div class="disney-movies-head">
+      <div class="dis-gif">
+        <img src="https://i.gifer.com/2RP1.gif"/>
+      </div>
+      <h2>Top Grossing </br>Disney Movies</h2>
+      <p>Walt Disney Animation Studios is responsible for some of the most iconic and popular movies to ever be created. Without them, we wouldn’t have our beloved Disney Princesses and our favorite animal sidekicks! We don’t even want to think about living in a world where Mushu didn’t pretend to be the Great Stone Dragon and help Mulan save all of China from the Huns.</p>
+      <p>Although it takes years for these classics to hit the theaters, it’s always worth the wait. There are a ton of Disney projects that are currently in the works, but instead we’re going to look back at the company’s highest-grossing flicks in celebration of all that it’s accomplished over the years.</p>
+      <p>Note: Some disney movies are missing from this <a href="https://data.world/kgarrett/disney-character-success-00-16/workspace/file?filename=disney_movies_total_gross.csv">dataset</a>, including the original 1957 Alice in Wonderland.</p>
+    </div>
+  </div>
+  <div id="navbar">
+    <div class="mini_container">
+      <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+        <rect x="630" y="0" width="20" height="20" fill="#e14f4f"/>
+        <text x="660" y="20" font-family="Verdana" text-anchor="left" font-size="18" fill="#000"> Walt Disney Productions </text>
+  
+        <rect x="300" y="0" width="20" height="20" fill="#f97735"/>
+        <text x="330" y="20" font-family="Verdana" text-anchor="left" font-size="18" fill="#000">Walt Disney Animation Studio</text>
+  
+        <rect x="460" y="40" width="20" height="20" fill="#512459"/>
+        <text x="490" y="60" font-family="Verdana" text-anchor="left" font-size="18" fill="#000">Marvel Studios</text>
+  
+        <rect x="300" y="40" width="20" height="20" fill="#b9355f"/>
+        <text x="330" y="60" font-family="Verdana" text-anchor="left" font-size="18" fill="#000">Lucasfilm</text>
+  
+        <rect x="670" y="40" width="20" height="20" fill="#862a63"/>
+        <text x="700" y="60" font-family="Verdana" text-anchor="left" font-size="18" fill="#000">Pixar</text>
+
+        <rect x="790" y="40" width="20" height="20" fill="#ccc"/>
+        <text x="820" y="60" font-family="Verdana" text>Other</text>
+  
+        <text x="50" y="120" font-family="Verdana" text-anchor="middle" font-size="18" fill="#000"> JAN </text>
+
+        <text x="150" y="120" font-family="Verdana" text-anchor="middle" font-size="18" fill="#000"> FEB </text>
+
+        <text x="250" y="120" font-family="Verdana" text-anchor="middle" font-size="18" fill="#000"> MAR </text>
+
+        <text x="350" y="120" font-family="Verdana" text-anchor="middle" font-size="18" fill="#000"> APR </text>
+
+        <text x="450" y="120" font-family="Verdana" text-anchor="middle" font-size="18" fill="#000"> MAY </text>
+
+        <text x="550" y="120" font-family="Verdana" text-anchor="middle" font-size="18" fill="#000"> JUN </text>
+
+        <text x="650" y="120" font-family="Verdana" text-anchor="middle" font-size="18" fill="#000"> JUL </text>
+
+        <text x="750" y="120" font-family="Verdana" text-anchor="middle" font-size="18" fill="#000"> AUG </text>
+
+        <text x="850" y="120" font-family="Verdana" text-anchor="middle" font-size="18" fill="#000"> SEP </text>
+
+        <text x="950" y="120" font-family="Verdana" text-anchor="middle" font-size="18" fill="#000"> OCT </text>
+
+        <text x="1050" y="120" font-family="Verdana" text-anchor="middle" font-size="18" fill="#000"> NOV </text>
+
+        <text x="1150" y="120" font-family="Verdana" text-anchor="middle" font-size="18" fill="#000"> DEC </text>
+</svg>
+  </div>
+</div>
+  
+  <div id="container" class="svg-container main"></div>
+  <div class="tooltip_fixed-contain"></div>
+</body>

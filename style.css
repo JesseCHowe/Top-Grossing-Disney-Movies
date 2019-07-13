@@ -1,0 +1,290 @@
+body{
+  margin: 0;
+}
+.intro {
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 300;
+  font-family: 'Fira Sans',sans-serif;
+  color: #353535;
+  top:0;
+}
+.disney-movies-head{
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.intro h2 {
+  font-size: 55px;
+  line-height: 51px;
+  font-weight: 700;
+  font-style: italic;
+  font-family: 'Cormorant Garamond',serif;
+  color: #353535;
+  margin: 0 0 23px;
+  text-align: center;
+}
+.main{
+  overflow-x: hidden;
+  margin-top: 400px;
+}
+.line {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+.area {
+  fill: #e7e7e7;
+}
+.svg-container {
+  max-width: 970px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  
+}
+.svg-content {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bar {
+  opacity: 1;
+  fill: blue;
+  stroke: red;
+}
+.xaxis {
+  stroke: black;
+  stroke-width: 1px;
+  fill: none;
+}
+svg {
+  overflow: visible;
+}
+.xaxis g text,
+.tick {
+  display: none;
+}
+.disney {
+  stroke-width: 2px;
+  stroke: #fff;
+}
+
+.disney:hover {
+  opacity: 1;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  box-shadow: 0 10px 20px -2px rgba(0, 0, 0, 0.19);
+}
+.mini_container {
+  max-width: 960px;
+  display: block;
+  margin: 0 auto;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4caf50;
+  color: black;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.movie-side{
+  vertical-align: middle;
+}
+.movie-body{
+  max-width: 240px;
+  padding: 10px;
+}
+.movie-body h3, .movie-body p{
+  margin: 0;
+}
+.movie-body h3{
+  font-size: 15px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  font-family: Georgia;
+  font-weight: 700;
+}
+.mini_container text{
+      font-size: 18px;
+    line-height: 23px;
+    font-weight: bold;
+    font-family: 'Fira Sans',sans-serif;
+}
+.mini_container rect{
+  border-left: 10px solid red;
+}
+.movie-body p{
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 300;
+    font-family: 'Fira Sans',sans-serif;
+}
+span{
+  color: teal;
+  font-weight: bold;
+}
+.container{
+
+
+  background: #fff;
+  text-align: left;
+  font-size: 0.7em;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+.Marvel{
+  fill: #512459;
+  opacity: 1;
+
+}
+.border-Marvel{
+  border-left: 2.5px solid #512459;
+}
+.Pixar{
+  fill: #862a63;
+    opacity: 1;
+}
+.border-Pixar{
+  border-left: 2.5px solid #862a63;
+}
+.Lucas{
+  fill: #b9355f;
+}
+.border-Lucas{
+  border-left: 2.5px solid #b9355f;
+}
+.Walt_Disney_Productions{
+  fill: #e14f4f;
+}
+.border-Walt_Disney_Productions{
+  border-left: 2.5px solid #e14f4f;
+}
+.Walt_Disney_Animation_Studio{
+  fill: #f97735;
+}
+.border-Walt_Disney_Animation_Studio{
+  border-left: 2.5px solid #f97735;
+}
+circle{
+  fill: #ccc;
+}
+circle:hover{
+  stroke: #000;
+}
+.years{
+    font-size: 30px;
+    line-height: 23px;
+    font-family: 'Fira Sans',sans-serif;
+    color: #353535;
+  font-weight: bold;
+  fill: #ccc;
+}
+
+.movie-labels{
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 300;
+    font-family: 'Fira Sans',sans-serif;
+    color: #353535;
+}
+
+.mini_container{
+  font-weight: bold;
+}
+
+  
+.movie-side  img {
+
+  padding: 5px;
+  max-width: 100px;
+}
+
+.dis-gif{
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.dis-gif img{
+  max-width: 160px;
+}
+.aboutMe{
+  padding: 10px;
+  text-align: center;
+}
+.name{
+  font-size: 1.5em;
+      font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+  color: #DE5A51;
+}
+
+.tooltip_fixed-contain{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+  left: 0;
+}
+.toolTip-fixed {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  max-width: 450px;
+  width: 450px;
+  padding-top: 0.5em;
+  background: #fff;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  z-index: 9999;
+  display: none;
+  bottom: 0px;
+  height: fit-content;
+}
+
+.aboutMe p{
+  pointer-events: none;
+}
