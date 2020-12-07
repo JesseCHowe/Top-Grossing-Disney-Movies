@@ -3,9 +3,42 @@
   font-family: "Fira Sans", sans-serif;
 }
 
-.aboutme {
+a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 0;
   text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+path {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+text {
+  font-size: 2rem;
+}
+
+.aboutme {
   margin: 1rem auto;
+  text-align: center;
+}
+
+.desc {
+  color: #aaa;
+  font-size: 0.7rem;
 }
 
 .intro {
@@ -16,24 +49,46 @@
   padding: 1rem;
 }
 
-p {
-  font-size: 1.2rem;
-  font-weight: 300;
-  line-height: 1.5rem;
+.mini_container {
+  display: grid;
+  grid-template-columns: 1fr 12fr;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
-h1 {
-  font-size: 4rem;
-  text-align: center;
+.Lucas {
+  fill: #b9355f;
+}
+
+.Marvel {
+  fill: #512459;
+}
+
+.Other {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.Pixar {
+  fill: #862a63;
+}
+
+.Walt_Disney_Animation_Studio {
+  fill: #f97735;
+}
+
+.Walt_Disney_Productions {
+  fill: #e14f4f;
 }
 
 #container {
-  margin: 0 auto;
-  max-width: 1000px;
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 12fr;
+  margin: 0 auto;
+  max-width: 1000px;
   padding: 1rem;
-  box-sizing: border-box;
 }
 
 #navbar {
@@ -45,73 +100,26 @@ h1 {
   margin: 0 auto;
   max-width: 1000px;
   padding: 0.5rem 1rem;
-  position: -webkit-sticky;
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   width: 100%;
-}
-
-.mini_container {
-  display: grid;
-  grid-template-columns: 1fr 12fr;
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-path, .Other {
-  fill: #fff;
-  stroke: #333;
-  stroke-width: 1px;
-}
-
-.Marvel {
-  fill: #c79cc7;
-}
-
-.Pixar {
-  fill: #b6e2d2;
-}
-
-.Lucas {
-  fill: #759ad1;
-}
-
-.Walt_Disney_Animation_Studio {
-  fill: #d17575;
-}
-
-.Walt_Disney_Productions {
-  fill: #7f75d1;
-}
-
-text {
-  font-size: 2rem;
 }
 
 #tooltip {
   background: #fff;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  line-height: 1.25rem;
   padding: 1rem;
   pointer-events: none;
   position: fixed;
   text-align: left;
   width: fit-content;
-  line-height: 1.25rem;
 }
 
 @media (max-width: 500px) {
   h1 {
     font-size: 2.5rem;
   }
-}
-.desc {
-  font-size: 0.7rem;
-  color: #aaa;
-}
-
-a {
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
 }
